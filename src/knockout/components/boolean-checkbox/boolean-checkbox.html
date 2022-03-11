@@ -1,4 +1,4 @@
-<div data-bind="css: question.koCss().root">
+<div data-bind="css: question.koCss().root, event: { mousedown: onMouseDown }">
   <label data-bind="css: question.getItemCss()">
     <input
       type="checkbox"

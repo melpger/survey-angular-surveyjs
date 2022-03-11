@@ -204,6 +204,9 @@ export class QuestionBooleanModel extends Question {
     }
     return true;
   }
+  public onMouseDown(event: any) {
+    preventDefaults(event);
+  }
   public onSwitchClickModel(event: any) {
     if (this.allowClick) {
       preventDefaults(event);
