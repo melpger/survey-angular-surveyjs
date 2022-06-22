@@ -21,7 +21,6 @@
   },
   "version": "0.0.1",
   "name": "@melvin.geremillo/surveyjs",
-  "private": true,
   "devDependencies": {
     "@types/angular": "1.6.2",
     "@types/jquery": "2.0.39",
