@@ -21,8 +21,8 @@
     "doc_update": "set TS_NODE_COMPILER_OPTIONS={\"module\":\"commonjs\"} && ts-node doc_generator/lib_docupdater.ts",
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
-  "version": "0.12.36",
-  "name": "surveyjs",
+  "version": "0.0.1",
+  "name": "@melvingeremillo2011/surveyjs",
   "private": true,
   "devDependencies": {
     "@types/angular": "1.6.2",
